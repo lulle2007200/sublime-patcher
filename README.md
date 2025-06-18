@@ -1,5 +1,18 @@
 # Sublime Text / Sublime Merge license patcher
 
+> [!IMPORTANT]
+> This project is currently undergoing a complete rewrite in **Rust**.  
+> During this period, **issue triage and support are paused**.  
+> Once the rewrite is complete, issue tracking will resume.  
+> Thank you for your patience!
+>
+> Non-exhaustive list of upcoming features:
+> - Improved CI with on-push artifacts and automated release support
+> - Integrated batch downloader to test the patcher on any version of Sublime products
+> - User friendly CLI with improved descriptions and help messages
+> - Expanded README with clear instructions for both users and developers
+> - Simplified builds powered by Rust’s Cargo ecosystem
+
 This is a simple patcher for [Sublime Text](https://www.sublimetext.com/) and [Sublime Merge](https://www.sublimemerge.com/) that allows you to bypass the license check.   
 It works by patching the license check functions in the binary to accept any license key.
 
